@@ -4,9 +4,9 @@ A simple customizable switch for react native
 <img src="https://t1.daumcdn.net/cfile/tistory/9913D74D5B5AF4DF2A" width="33%"><img src="https://t1.daumcdn.net/cfile/tistory/99545A4D5B5AF4E002" width="33%"><img src="https://t1.daumcdn.net/cfile/tistory/9938484D5B5AF4E114" width="33%">
 
 ## Version
-1.0.2. update example
-1.0.1. fixed height, when diameter over height & make example
-1.0.0. init
+* 1.0.2. update example
+* 1.0.1. fixed height, when diameter over height & make example
+* 1.0.0. init
 
 ## Support
     react-native >= 0.55
