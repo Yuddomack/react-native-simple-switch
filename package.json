@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-switch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple switch for react native",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yuddomack/react-native-simple-switch"
+    "url": "git+https://github.com/Yuddomack/react-native-simple-switch.git"
   },
   "keywords": [
     "react",
@@ -17,11 +17,7 @@
     "switch",
     "material"
   ],
-  "author": {
-    "name": "Yuddomack",
-    "email": "babyginger91@gmail.com",
-    "url": "http://yuddomack.tistory.com"
-  },
+  "author": "Yuddomack <babyginger91@gmail.com> (http://yuddomack.tistory.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Yuddomack/react-native-simple-switch/issues"
