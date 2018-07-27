@@ -1,16 +1,16 @@
 # react-native-simple-switch
-A simple customizable switch switch for react native
+A simple customizable switch for react native
 
 <img src="https://t1.daumcdn.net/cfile/tistory/9913D74D5B5AF4DF2A" width="33%"><img src="https://t1.daumcdn.net/cfile/tistory/99545A4D5B5AF4E002" width="33%"><img src="https://t1.daumcdn.net/cfile/tistory/9938484D5B5AF4E114" width="33%">
 
-### Support
+## Support
     react-native >= 0.55
 * Maybe even in lower version
 
-### Installation
+## Installation
     npm install react-native-simple-switch
 
-### Properties
+## Properties
 |props| types | default | comment
 |----|-----|-----|---------|
 |width|number|32||
@@ -25,7 +25,15 @@ A simple customizable switch switch for react native
 |activeBarColor|string|'#9ddfdc'||
 |callback|func|() => null|callback when finished animation|
 
-### Trick
+## Usage
+```javascript
+import Switch from 'react-native-simple-switch';
+```
+```javascript
+<Switch value={} onPress={}/>
+```
+
+## Trick
 * this properties are similar to both platform. ~~a little?~~
 
 #### 1.Android
@@ -56,7 +64,7 @@ A simple customizable switch switch for react native
   activeBarColor={'#4cd864'}/>
 ```
 
-### Example
+## Example
 ```javascript
 /**
  * Sample React Native App
