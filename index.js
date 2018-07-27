@@ -113,11 +113,12 @@ class Switch extends Component{
   }
 
   render(){
+    const diameter = (this.props.diameter > this.props.width) ? this.props.width : this.props.diameter;
     return (
       <TouchableOpacity style={{
           flexDirection:'row',
           alignItems:'center',
-          height:Math.max(this.props.height, this.props.diameter)
+          height:Math.max(this.props.height, diameter)
         }}
         activeOpacity={1}
         onPress={this.props.onPress}>
@@ -131,37 +132,5 @@ class Switch extends Component{
     );
   }
 }
-
-/* ios
-{
-  width:50,
-  height:30,
-  rad:28,
-  value:false,
-  buttonColor:'#eee',
-  afterButtonColor:'#fff',
-  shadowColor:'#ccc',
-  afterShadowColor:'#eee',
-  barColor:'#aaa',
-  afterBarColor:'#4cd864',
-  callback:() => null,
-};
-*/
-
-/* android
-{
-  width:32,
-  height:13,
-  rad:20,
-  value:false,
-  buttonColor:'#eee',
-  afterButtonColor:'#009685',
-  shadowColor:'#ccc',
-  afterShadowColor:'#00a396',
-  barColor:'#aaa',
-  afterBarColor:'#9ddfdc',
-  callback:() => null,
-};
-*/
 
 export default Switch;
